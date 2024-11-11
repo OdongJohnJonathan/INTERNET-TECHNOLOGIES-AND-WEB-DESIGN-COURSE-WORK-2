@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+#about-us-section{
+    height: 150vh;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+#about-us-section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#about-us-section .mother-section{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes about-us-pics{
+    from {
+        background: url(../images/vej1.jpg);
+        height: 100%;
+        width: 100%;}
+    to {
+        background: url(../images/vej2.jpg);
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#about-us-section .mother-section .child-section1{
+    height: 60%;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.5);
+    /* animation-name: about-us-pics;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transform: rotateX(-100);
+    /* background-position: center !important; */
+    /* background-size: cover !important;  */
+}
+
+#about-us-section .mother-section .child-section1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#about-us-section .mother-section .child-section2{
+    height: 40%;
+    width: 100%;
+}
+
+#about-us-section .mother-section .child-section1 img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #about-us-section .mother-section {
+        flex-direction: column;
+    }
+    #footer {
+        flex-direction: column;
+    }
+}
+
+#our-team{
+    height: 110vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom:50px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.5);
+}
+
+#our-team h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#our-team .team-mother{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#our-team .team-mother .team-child{
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.5);
+}
+
+#our-team .team-mother .team-child .child-part1{
+    height: 80%;
+    width: 100%;
+}
+
+#our-team .team-mother .team-child .child-part1 img{
+    height: 100%;
+    width: 100%;
+}
+
+#our-team .team-mother .team-child .child-part2{
+    height: 20%;
+    width: 100%;
+}
+
+#our-team .team-mother .team-child .child-part2 h4{
+    text-align: center;
+}

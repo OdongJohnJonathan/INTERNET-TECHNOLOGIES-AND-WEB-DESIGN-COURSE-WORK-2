@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto' ,sans-serif;
+    background: #ffffffb4 ;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    background: azure;
+}
+
+.img-link{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img{
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    padding: 12px;
+    background: #375868;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    padding: 12px;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+}
+
+#menu-section{
+    height: 180vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-section h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#menu-section h5{
+    text-align: center;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+#menu-section .mother-menu{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#menu-section .mother-menu .child-menu{
+    height: 100%;
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#menu-section .mother-menu .child-menu a img{
+    height: 80%;
+    width: 95%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#menu-section .mother-menu .child-menu h4{
+    font-size: 20px;
+    height: 20%;
+    width: 95%;
+}

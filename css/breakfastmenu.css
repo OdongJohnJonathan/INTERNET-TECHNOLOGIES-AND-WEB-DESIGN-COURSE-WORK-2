@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#breakfastmenu{
+    height: 150vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#breakfastmenu h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#breakfastmenu .breakfast-motherdiv{
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#breakfastmenu .breakfast-motherdiv .breakfast-child{
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#breakfastmenu .breakfast-motherdiv .breakfast-child img{
+    height: 95%;
+    width: 95%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.5);
+}
+
+#breakfastmenu .breakfast-motherdiv .breakfast-child h4{
+    height: 5%;
+    width: 95%;
+}
+
+#breakfastmenu .breakfast-motherdiv .breakfast-child img:hover{
+    cursor: pointer;
+}

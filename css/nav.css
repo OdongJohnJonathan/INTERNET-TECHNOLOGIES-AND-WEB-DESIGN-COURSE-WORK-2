@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto' ,sans-serif;
+    background: #ffffffb4 ;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    background: azure;
+}
+
+nav img{
+    height: 100%;
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    padding: 12px;
+    background: #375868;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    padding: 12px;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+}

@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+#nav {
+    height: 100vh;
+    background: url(../images/6.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#nav .nav-child{
+    height: 100%;
+    width: 33%;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#nav .nav-child h3{
+    color: #fff;
+    font-size: 60px;
+}
+
+.order-now{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+    padding: 12px;
+    margin: 0;
+    background: #ff0000 ;
+    border-radius: 8px;
+}
+
+#nav .nav-child ul li{
+    list-style-type: none;
+    margin: 50px 0;
+}
+
+#nav .nav-child ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#nav .nav-child ul li a:hover{
+    background: #ff0000;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.order-now:hover{
+    color: #fff;
+    background: #000000;
+    transition-duration: 0.5s;
+}
+
+#about-us{
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0.5, 0.5);
+}
+
+#about-us .about-us-child{
+    height: 100%;
+    width: 45%;
+    margin: auto;
+}
+
+#about-us .about-us-child img{
+    height: 100%;
+    width: 100%;
+}
+
+#footer{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px; */
+    background: #abcad8;
+    overflow: hidden;
+
+}
+
+#footer .footer-c1{
+    height: 100%;
+    width: 25%;
+    padding: 15px;
+}
+
+#footer .footer-c1 iframe{
+    width: 90%;
+}
+
+#footer .footer-c2{
+    height: 100%;
+    width: 25%;
+    padding: 15px;
+}
+
+#footer .footer-c3{
+    height: 100%;
+    width: 25%;
+    padding: 15px;
+}
+
+#footer .footer-c4{
+    height: 100%;
+    width: 25%;
+    padding: 15px;
+}
